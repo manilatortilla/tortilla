@@ -16,7 +16,9 @@
   font-size:1em;
   transition:0.3s ease-in-out;
 }
-
+a{
+  color:orange;
+}
 h1{
   font-size:2em;
   font-family: 'monoton';
