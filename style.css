@@ -88,6 +88,7 @@ html{
 .header{
   width:100%;
   height:auto;
+  display:none;
 }
 iframe{
   display:block;
@@ -149,4 +150,10 @@ iframe{
   justify-content:center;
   align-items:center;
   flex-direction:column;
+}
+
+@media only screen and (orientation: portrait){
+.header{
+  display:block;
+}
 }
