@@ -13,8 +13,9 @@
   transition:0.3s ease-in-out;
 }
 
-body{
+html{
   background-image:url("img/background.png");
+  background-color:pink;
   background-size: 100% auto;
 }
 .center{
