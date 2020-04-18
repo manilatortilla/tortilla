@@ -84,6 +84,11 @@ html{
   background-size: 100% auto;
   background-repeat:repeat-y;
 }
+
+.header{
+  width:100%;
+  height:auto;
+}
 iframe{
   display:block;
   overflow-y:visible;
@@ -121,7 +126,7 @@ iframe{
   overflow: hidden;
 }
 
-img{
+.image img{
   margin-top:-50px;
   width:290px;
   height:334px;
