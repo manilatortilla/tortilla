@@ -59,7 +59,7 @@ iframe{
   flex-direction:column;
   height:auto;
   box-sizing:border-box;
-  padding:10px;
+  padding:0px;
   margin:0;
 }
 iframe{
@@ -97,10 +97,8 @@ img{
   width: 100%;
   background:#fff9f4;
   border-radius:10px;
-  margin-top:20px;
+  margin-bottom:20px;
 }
 .text{
   padding:30px;
-}
-
 }
