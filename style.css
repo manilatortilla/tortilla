@@ -42,6 +42,12 @@ a{
   opacity:.8;
 }
 
+hr{
+  color:black;
+  width:100%;
+  height:1px;
+}
+
 h1{
   font-size:2em;
   font-family: 'monoton';
