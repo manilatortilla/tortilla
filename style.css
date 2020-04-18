@@ -19,6 +19,29 @@
 a{
   color:orange;
 }
+.order {
+  display:flex;
+  justify-content:center;
+  text-align: center;
+  padding:10px 20px;
+  background:orange;
+  width:100px;
+  margin-left:0;
+  color:white;
+  border-radius:10px;
+
+}
+
+.order a{
+  color:white;
+  text-decoration: none
+}
+
+.order:hover{
+  color:white;
+  opacity:.8;
+}
+
 h1{
   font-size:2em;
   font-family: 'monoton';
@@ -111,4 +134,8 @@ img{
 }
 .text{
   padding:30px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
 }
