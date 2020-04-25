@@ -131,11 +131,17 @@ iframe{
 }
 
 .image img{
-  background:url(img/taco.jpg);
   width:640px;
   height:426.6666666667px;
+  background-size: cover;
+  background-position: center;
 }
-
+.taco{
+  background-image:url(img/taco.jpg)
+}
+.burrito{
+  background-image:url(img/burrito.jpg)
+}
 .info{
   display:flex;
   flex-direction:column;
