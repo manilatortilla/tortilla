@@ -90,13 +90,7 @@ html{
   height:auto;
   display:none;
 }
-iframe{
-  display:block;
-  overflow-y:visible;
-  height:100vh;
-  max-width:100%;
-  background:rgba(255,255,255,.5);
-}
+
 .center{
   display:flex;
   align-items:center;
@@ -115,6 +109,14 @@ iframe{
   width:100%;
   padding-top:20px;
   box-sizing:border-box;
+}
+
+.limited{
+  background-image: url(img/beet.jpg);
+  width:100%;
+  max-height:calc(100vw - 80px);
+  height:560px;
+  background-size:100% auto;
 }
 .image{
   display:flex;
@@ -142,6 +144,7 @@ iframe{
 .burrito{
   background-image:url(img/burrito.jpg)
 }
+
 .info{
   display:flex;
   flex-direction:column;
