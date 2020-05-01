@@ -118,6 +118,11 @@ iframe{
   height:560px;
   background-size:100% auto;
 }
+
+#salsa.image{
+  display:none !important;
+}
+
 .image{
   display:flex;
   background:transparent;
@@ -144,7 +149,9 @@ iframe{
 .burrito{
   background-image:url(img/burrito.jpg)
 }
-
+.salsa{
+  background-image:url(img/salsa.jpeg);
+}
 .info{
   display:flex;
   flex-direction:column;
