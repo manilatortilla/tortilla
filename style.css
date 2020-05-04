@@ -88,7 +88,7 @@ html{
 .header{
   width:100%;
   height:auto;
-  display:none;
+  display:block;
 }
 
 .center{
