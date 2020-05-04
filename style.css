@@ -170,9 +170,3 @@ iframe{
   align-items:center;
   flex-direction:column;
 }
-
-@media only screen and (orientation: portrait){
-.header{
-  display:block;
-}
-}
