@@ -54,7 +54,9 @@ h1{
   font-weight:100;
   line-height:1.25;
   color:#333;
+  letter-spacing: 0.1;
   text-align: center
+
 }
 
 h2{
