@@ -112,6 +112,7 @@ iframe{
 }
 
 .limited{
+  display:none;
   background-image: none;
   width:100%;
   max-height:calc(100vw - 80px);
