@@ -116,7 +116,7 @@ iframe{
 }
 
 .limited{
-  display:none;
+  display:url(insta/pricelist.jpg);
   background-image: none;
   width:100%;
   max-height:calc(100vw - 80px);
