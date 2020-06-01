@@ -116,12 +116,12 @@ iframe{
 }
 
 .limited{
-  display:url(insta/pricelist.jpg);
-  background-image: none;
+  background-image: url(insta/pricelist.jpg);
   width:100%;
-  max-height:calc(100vw - 80px);
-  height:560px;
-  background-size:100% auto;
+  max-height:calc(155vw);
+  height:1000px;
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 #salsa.image{
