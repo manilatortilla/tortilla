@@ -118,7 +118,7 @@ iframe{
 .limited{
   background-image: url(insta/pricelist.jpg);
   width:100%;
-  max-height:calc(150vw);
+  max-height:calc(177vw - 140px);
   height:1000px;
   background-size:100% auto;
   background-repeat: no-repeat;
