@@ -140,8 +140,7 @@ iframe{
 }
 
 .limited{
-  display:block;
-  background-image: url(insta/pricelist_w7.jpg);
+  background-image: url(insta/pricelist.jpg);
   width:100%;
   max-height:calc(177vw - 140px);
   height:1000px;
