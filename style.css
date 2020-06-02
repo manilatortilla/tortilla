@@ -110,6 +110,7 @@ html{
   background-image:url("img/background.png");
   background-size: 100% auto;
   background-repeat:repeat-y;
+  background-attachment:fixed;
 }
 
 .header{
