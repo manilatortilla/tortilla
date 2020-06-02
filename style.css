@@ -42,6 +42,29 @@ a{
   opacity:.8;
 }
 
+.viber {
+  position:fixed;
+  bottom:0;
+  display:flex;
+  justify-content:center;
+  text-align: center;
+  padding:10px 20px;
+  background:orange;
+  width:100vw;
+  margin:0;
+  color:white;
+}
+
+.viber a{
+  color:white;
+  text-decoration: none
+}
+
+.viber:hover{
+  color:white;
+  opacity:.8;
+}
+
 hr{
   color:black;
   width:100%;
@@ -117,7 +140,7 @@ iframe{
 
 .limited{
   display:block;
-  background-image: url(insta/pricelist w7.jpg);
+  background-image: url(insta/pricelist_w7.jpg);
   width:100%;
   max-height:calc(177vw - 140px);
   height:1000px;
