@@ -140,10 +140,11 @@ iframe{
 }
 
 .limited{
-  background-image: url(insta/pricelist.jpg);
+  background-image: url(img/posters/duck 061220.jpg);
   width:100%;
-  max-height:calc(177vw - 140px);
-  height:1000px;
+  /*max-height:calc(177vw - 140px);
+  height:1000px;*/
+  height: 177vw;
   background-size:100% auto;
   background-repeat: no-repeat;
 }
