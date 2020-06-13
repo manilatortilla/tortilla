@@ -140,11 +140,12 @@ iframe{
 }
 
 .limited{
-  background-image: url(img/posters/duck 061220.jpg);
+  background-image: url(img/posters/duck_061220.jpeg);
   width:100%;
   /*max-height:calc(177vw - 140px);
   height:1000px;*/
-  height: 177vw;
+  max-height:580px;
+  height:calc(100vw - 75px);
   background-size:100% auto;
   background-repeat: no-repeat;
 }
