@@ -45,24 +45,33 @@ a{
 .viber {
   position:fixed;
   bottom:0;
-  display:flex;
+  display:block;
   justify-content:center;
   text-align: center;
-  padding:10px 20px;
-  background:#ff5f6b;
+  padding:5px 0 4px;
+  background:rgb(39,52,33);
   width:100vw;
   margin:0;
   color:white;
+  letter-spacing: 1px;
 }
 
 .viber a{
-  color:white;
-  text-decoration: none
+  color:rgb(215,225,217);
+  background:rgb(72,82,63);
+  text-decoration: none;
+  display:block;
+  padding:10px 0px;
+  margin-left:3px;
+  margin-right:3px;
+  box-shadow:-1px -1px 2px rgba(175,186,176,.7);
+  text-shadow:-1px -1px 0px rgb(39,52,33);
 }
 
-.viber:hover{
-  color:white;
-  opacity:.8;
+.viber:hover, .viber a:hover{
+  color:rgb(215,225,217);
+  box-shadow:1px 1px 2px rgba(175,186,176,.7);
+  text-shadow:1px 1px 0px rgb(39,52,33);
 }
 
 hr{
