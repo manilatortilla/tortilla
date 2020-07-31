@@ -149,12 +149,12 @@ iframe{
 }
 
 .limited{
-  background-image: url(img/pork.jpg);
+  background-image: url(img/menu_010820.jpg);
   width:100%;
-  /*max-height:calc(177vw - 140px);
-  height:1000px;*/
-  max-height:580px;
-  height:calc(100vw - 75px);
+  max-height:calc(177vw - 140px);
+  height:1000px;
+  /*max-height:580px;
+  height:calc(100vw - 75px);*/
   background-size:100% auto;
   background-repeat: no-repeat;
 }
