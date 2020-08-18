@@ -149,12 +149,12 @@ iframe{
 }
 
 .limited{
-  background-image: url(img/menu_010820.jpg);
+  background-image: url(img/menu_180820.jpg);
   width:100%;
-  max-height:calc(177vw - 140px);
-  height:1000px;
-  /*max-height:580px;
-  height:calc(100vw - 75px);*/
+  /*max-height:calc(177vw - 140px);
+  height:1000px;*/
+  max-height:732;
+  height:calc(128.57142857vw - 100px);
   background-size:100% auto;
   background-repeat: no-repeat;
 }
